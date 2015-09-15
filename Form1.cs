@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 using Tao.OpenGl;
 using Tao.FreeGlut;
 using Tao.Platform.Windows;
@@ -55,7 +54,7 @@ namespace game_git_GL
             // установка черного цвета 
             Gl.glColor3f(0, 0, 0);
             // визуализация изображения из движка 
-            engin.drew();
+            engin.image();
             // дожидаемся завершения визуализации кадра 
             Gl.glFlush();
             // сигнал для обновление элемента, реализующего визуализацию. 
